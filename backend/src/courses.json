@@ -1,0 +1,263 @@
+[
+	{
+		"id": 1,
+		"name": "BSCS",
+		"semesters": [
+			{
+				"name": "Semester 1",
+				"courses": [
+					{
+						"name": "Fundamentals of ICT",
+						"code": "CS-100",
+						"credit_hours": 3
+					},
+					{
+						"name": "Fundamentals of Computer Programming",
+						"code": "CS-110",
+						"credit_hours": 4
+					},
+					{
+						"name": "Pakistan Studies",
+						"code": "HU-107",
+						"credit_hours": 2
+					},
+					{
+						"name": "Communication Skills",
+						"code": "HU-109",
+						"credit_hours": 4
+					},
+					{
+						"name": "Discrete Mathematics",
+						"code": "MATH-161",
+						"credit_hours": 3
+					},
+					{
+						"name": "Calculus-I",
+						"code": "MATH-111",
+						"credit_hours": 3
+					}
+				]
+			},
+			{
+				"name": "Semester 2",
+				"courses": [
+					{
+						"name": "Object Oriented Programming",
+						"code": "CS-212",
+						"credit_hours": 4
+					},
+					{
+						"name": "Digital Logic Design",
+						"code": "EE-221",
+						"credit_hours": 4
+					},
+					{
+						"name": "Islamic Studies",
+						"code": "HU-101",
+						"credit_hours": 2
+					},
+					{
+						"name": "Calculus-II",
+						"code": "MATH-112",
+						"credit_hours": 3
+					},
+					{
+						"name": "Applied Physics",
+						"code": "PHY-101",
+						"credit_hours": 4
+					},
+					{
+						"name": "Introduction to Management",
+						"code": "MGT-164",
+						"credit_hours": 2
+					}
+				]
+			},
+			{
+				"name": "Semester 3",
+				"courses": [
+					{
+						"name": "Database Systems",
+						"code": "CS-220",
+						"credit_hours": 4
+					},
+					{
+						"name": "Computer Organisation and Assembly Language",
+						"code": "CS-235",
+						"credit_hours": 4
+					},
+					{
+						"name": "Data Structures & Algorithms",
+						"code": "CS-250",
+						"credit_hours": 4
+					},
+					{
+						"name": "Technical & Business Writing",
+						"code": "HU-212",
+						"credit_hours": 2
+					},
+					{
+						"name": "Linear Algebra",
+						"code": "MATH-222",
+						"credit_hours": 3
+					}
+				]
+			},
+			{
+				"name": "Semester 4",
+				"courses": [
+					{
+						"name": "Design and Analysis of Algorithms",
+						"code": "CS-251",
+						"credit_hours": 4
+					},
+					{
+						"name": "Human Computer Interaction",
+						"code": "CS-260",
+						"credit_hours": 3
+					},
+					{
+						"name": "Computer Architecture & Organisation",
+						"code": "EE-321",
+						"credit_hours": 4
+					},
+					{
+						"name": "Probability & Statistics",
+						"code": "MATH-361",
+						"credit_hours": 3
+					},
+					{
+						"name": "CS Elective - I",
+						"code": "xxx-000",
+						"credit_hours": 3
+					}
+				]
+			},
+			{
+				"name": "Semester 5",
+				"courses": [
+					{
+						"name": "Operating Systems",
+						"code": "CS-330",
+						"credit_hours": 4
+					},
+					{
+						"name": "Software Engineering",
+						"code": "SE-200",
+						"credit_hours": 3
+					},
+					{
+						"name": "Computer Networks",
+						"code": "EE-353",
+						"credit_hours": 4
+					},
+					{
+						"name": "Artificial Intelligence",
+						"code": "CS-370",
+						"credit_hours": 4
+					},
+					{
+						"name": "CS Elective - II",
+						"code": "xxx-000",
+						"credit_hours": 3
+					}
+				]
+			},
+			{
+				"name": "Semester 6",
+				"courses": [
+					{
+						"name": "Theory of Automata and Formal Languages",
+						"code": "CS-352",
+						"credit_hours": 3
+					},
+					{
+						"name": "Professional Ethics",
+						"code": "HU-222",
+						"credit_hours": 2
+					},
+					{
+						"name": "Numerical Analysis",
+						"code": "MATH-333",
+						"credit_hours": 4
+					},
+					{
+						"name": "CS Elective - III",
+						"code": "XXX",
+						"credit_hours": 3
+					},
+					{
+						"name": "University Elective - II",
+						"code": "XXX",
+						"credit_hours": 3
+					},
+					{
+						"name": "University Elective - III",
+						"code": "XXX",
+						"credit_hours": 3
+					}
+				]
+			},
+			{
+				"name": "Semester 7",
+				"courses": [
+					{
+						"name": "Compiler Construction",
+						"code": "CS-354",
+						"credit_hours": 3
+					},
+					{
+						"name": "Senior Project",
+						"code": "CS-499",
+						"credit_hours": 3
+					},
+					{
+						"name": "Entrepreneurship",
+						"code": "MGT-271",
+						"credit_hours": 2
+					},
+					{
+						"name": "CS Elective - IV",
+						"code": "xxx-000",
+						"credit_hours": 3
+					},
+					{
+						"name": "University Elective - IV",
+						"code": "xxx-000",
+						"credit_hours": 2
+					}
+				]
+			},
+			{
+				"name": "Semester 8",
+				"courses": [
+					{
+						"name": "Senior Project",
+						"code": "CS-499",
+						"credit_hours": 3
+					},
+					{
+						"name": "Community Service Learning Course",
+						"code": "CSL-401",
+						"credit_hours": 2
+					},
+					{
+						"name": "University Elective - V",
+						"code": "xxx-000",
+						"credit_hours": 3
+					},
+					{
+						"name": "CS Elective - V",
+						"code": "xxx-000",
+						"credit_hours": 3
+					},
+					{
+						"name": "CS Elective - VI",
+						"code": "xxx-000",
+						"credit_hours": 3
+					}
+				]
+			}
+		]
+	}
+]

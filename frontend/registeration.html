@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Registeration</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1 class="text-center py-2">Registeration</h1>
+      <form class="form-group" action="POST">
+        <input class="form-control my-3" type="email" name="emailField" placeholder="Email">
+        <input class="form-control my-3" type="password" name="passwordField" placeholder="Password">
+        <input class="form-control my-3" type="password" name="rePasswordField" placeholder="Confirm Password">
+
+        <div class="selection-menu">
+          <label class="text-lead" for="cars">Choose your course:</label>
+          <select class="form-control my-3" id="courses">
+          </select>
+        </div>
+        <button class="btn btn-md btn-secondary form-control" type="submit" name="submitBtn">Register</button>
+      </form>
+      <a href="login.html" id="forwardLink" style="display: none;"></a>
+    </div>
+  </div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="js/registeration.js"></script>
+</body>
+
+</html>

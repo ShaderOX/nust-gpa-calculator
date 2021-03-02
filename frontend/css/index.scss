@@ -1,0 +1,15 @@
+.selection-menu {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  label {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  select {
+    max-width: fit-content;
+    margin-left: 1rem;
+  }
+}

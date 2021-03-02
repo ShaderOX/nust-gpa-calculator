@@ -33,7 +33,7 @@ router.post('/login', async (req, res) => {
     const isPasswordCorrect = hasher(password) === user.password;
     if (isPasswordCorrect) {
         const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET);
-        res.header({ ...json, 'auth_token': token }).send(token);
+        res.header({ ...json, 'auth_token': token }).send({ token });
     }
     if (!user || !isPasswordCorrect) return exitWithError(res, 'Either the email or the password is inccorret', 400);
 });
